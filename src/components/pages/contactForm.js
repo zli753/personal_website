@@ -1,7 +1,9 @@
 import emailjs from "emailjs-com";
 import React from 'react';
+import '../../App.css';
 import{ init } from 'emailjs-com';
 init("user_gFCbcODG2ucrRrZwyfmTE");
+
 
 export default function ContactUs() {
 

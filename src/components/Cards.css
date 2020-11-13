@@ -88,8 +88,13 @@ h1 {
     padding: 20px 30px 30px;
 }
 
+.cards__item__title {
+    padding: 0;
+    background: linear-gradient(to right, #373b44, #4286f4);
+}
+
 .cards__item__btn {
-    padding: 0px 30px 30px;
+    padding: 0 30px 30px;
     text-align: center;
     justify-content: center;
 }
@@ -98,6 +103,14 @@ h1 {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
+}
+
+.cards__title__text {
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 5px;
+    margin-left: 20px;
 }
 
 @media only screen and (min-width: 1200px) {

@@ -1,13 +1,12 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import {Button} from "./Button";
-import {animateScroll as scroll} from "react-scroll/modules";
+
 
 function CardItem(props) {
     const [index, setIndex] = useState(0);
 
-    const handleSelect = (selectedIndex, e) => {
+    const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
 
@@ -15,6 +14,9 @@ function CardItem(props) {
         <>
             <li className='cards__item'>
                 <a className='cards__item__link' href={props.path} style={{ textDecoration: 'none' }}>
+                    <div className='cards__item__title'>
+                        <h5 className='cards__title__text'>{props.title}</h5>
+                    </div>
                     <figure className='cards__item__pic-wrap' data-category={props.label}>
                         <Carousel activeIndex={index} onSelect={handleSelect}>
                             <Carousel.Item>
