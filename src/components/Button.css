@@ -25,7 +25,7 @@
 }
 
 .btn--project {
-    background: #1565c0;
+    background: #0083b0;
     color: white;
     border: 1px solid var(--primary);
     border-radius: 10px;
@@ -56,7 +56,7 @@
 
 .btn--small:hover {
     transition: all 0.3s ease-out;
-    background: #b92b27;
+    background: #00b4db;
     color: white;
     transition: 250ms;
 }
