@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import {Button} from "./Button";
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 function CardItem(props) {
     const [index, setIndex] = useState(0);
@@ -10,9 +11,13 @@ function CardItem(props) {
         setIndex(selectedIndex);
     };
 
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[]);
+
     return (
         <>
-            <li className='cards__item'>
+            <li data-aos="fade-up" className='cards__item'>
                 <a className='cards__item__link' href={props.path} style={{ textDecoration: 'none' }}>
                     <div className='cards__item__title'>
                         <h5 className='cards__title__text'>{props.title}</h5>
