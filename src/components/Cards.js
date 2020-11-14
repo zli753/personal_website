@@ -11,9 +11,9 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src1='images/internship_1.jpg'
-                            src2='images/internship_2.jpg'
-                            src3='images/internship_3.jpg'
+                            src1='images/internship_1.png'
+                            src2='images/internship_2.png'
+                            src3='images/internship_3.png'
                             text='Internship: Developing an admin panel, adding new feature like resetting password and showing current states. Building
 reactJS component by using Bootstrap, CSS etc.'
                             label='React'
