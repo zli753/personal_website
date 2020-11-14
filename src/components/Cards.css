@@ -3,6 +3,12 @@
     background: #fff;
 }
 
+@media only screen and (max-width: 600px) {
+    .cards {
+        padding: 0rem;
+    }
+}
+
 h1 {
     text-align: center;
 }
