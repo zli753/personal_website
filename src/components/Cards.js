@@ -21,9 +21,9 @@ reactJS component by using Bootstrap, CSS etc.'
                             title='Admin Panel'
                         />
                         <CardItem
-                            src1='images/personal_1.jpg'
-                            src2='images/personal_2.jpg'
-                            src3='images/personal_3.jpg'
+                            src1='images/personal_1.png'
+                            src2='images/personal_2.png'
+                            src3='images/personal_3.png'
                             text='Personal website created by using ReactJs with support of Bootstrap and CSS. Different feature such as image carousel, react card, emailJS has been deployed in this project'
                             label='React'
                             path='https://github.com/zli753/personal_website'
